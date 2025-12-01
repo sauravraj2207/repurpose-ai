@@ -28,7 +28,7 @@ if is_premium:
     st.sidebar.success("✅ PRO Status: Active")
 else:
     st.sidebar.warning("🔒 Status: Free Plan")
-    st.sidebar.markdown("[Get a License Key ($9/mo)](#)")
+    st.sidebar.markdown("[Get a License Key ($5)](https://sauravraj74.gumroad.com/l/irayl)")
 
 # --- MAIN APP ---
 st.title("🚀 RepurposeAI")
@@ -82,3 +82,4 @@ with tab3:
                 if result: st.write(result)
     else:
         st.markdown("<div class='locked-box'>🔒 Upgrade to unlock Newsletters</div>", unsafe_allow_html=True)
+
